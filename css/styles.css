@@ -4,9 +4,11 @@ html {
 h1 {
    text-align: center;
 }
+/*cat*/
 img {
    width: 250px;
 }
+
 body {
    background-image: url("../images/wood2.jpg");
    background-repeat: repeat-x;
@@ -18,6 +20,7 @@ body {
    height: 300px;
    width: 500px00px;
   }
+  /*home aboou..*/
 ul{
    width: 570px;
    padding: 15px;
