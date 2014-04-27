@@ -1,24 +1,33 @@
 html {
    font-family: sans-serif;
 }
+h1 {
+   text-align: center;
+}
 img {
    width: 250px;
 }
 body {
-margin: 0px;
-background: url('/images/furniture/gromit.jpg') no-repeat center center fixed;
-background-image: url(http://visitbristol.co.uk/images/furniture/gromit.jpg);
-background-position-x: 50%;
-background-position-y: 50%;
-background-size: cover;
-background-repeat-x: no-repeat;
-background-repeat-y: no-repeat;
-background-attachment: fixed;
-background-origin: initial;
-background-clip: initial;
-background-color: initial;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+   background-image: url("../images/wood2.jpg");
+   background-repeat: repeat-x;
+   background-repeat: repeat-y;
+   background-attachment: scroll;
+   background-size: cover;
+ }
+ div {
+   height: 300px;
+   width: 500px00px;
+  }
+ul{
+   width: 570px;
+   padding: 15px;
+   margin: 0px auto 0px auto;
+   border-top: 2px solid #000;
+   border-bottom: 1px solid #000;
+   text-align: center;
+}
+li {
+   display: inline;
+   margin: 10px;
+   align: center;
 }
