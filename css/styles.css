@@ -2,21 +2,17 @@ html {
    font-family: sans-serif;
 }
 h1 {
+   margin: 10px auto 10px auto;
    text-align: center;
+   background-color: DarkCyan;
+   width: 570px;
+   padding: 20px
 }
 /*cat*/
 img {
    width: 250px;
 }
 
-body {
-   background-image: url("../images/wood2.jpg");
-   background-repeat: repeat-x;
-   background-repeat: repeat-y;
-   background-attachment: scroll;
-   background-size: cover;
- }
- 
   /*home aboou..*/
 ul{
    width: 570px;
