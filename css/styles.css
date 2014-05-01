@@ -6,7 +6,7 @@ body {
    margin: 75px;
 }
 h1 {
-   margin: 10px auto 10px auto;
+   margin: 20px auto 20px auto;
    text-align: center;
    color: white;
    background-color: black;
@@ -15,10 +15,12 @@ h1 {
 }
 
 h2 {
-   width: 1300px;
+   text-align: center;
+   width: 570px;
    padding-top: 50px;
    padding-bottom: 20px;
-   margin: 10px auto 10px auto;
+   margin: 20px auto 20px auto;
+   font-weight: normal;
    background-color: white;
 }
 
@@ -42,7 +44,21 @@ li {
    display: inline;
    margin: 10px;
    align: center;
+  
 }
+
+p.proverb{
+   clip: rect(auto,auto,auto,auto);
+   margin-left: 4%;
+   line-height: 150%;
+   margin-right: 1%;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+block-quote {
+   background-image: url("images/tree-large.jpg");
+}
+
 img.medium {
    width: 250px;
    margin: 10px;
