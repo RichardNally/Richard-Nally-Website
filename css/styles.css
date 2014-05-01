@@ -43,7 +43,7 @@ li {
    margin: 10px;
    align: center;
 }
-figure img {
+img.medium {
    width: 250px;
    margin: 10px;
 }
