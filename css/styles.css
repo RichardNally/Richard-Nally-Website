@@ -44,10 +44,12 @@ li {
    display: inline;
    margin: 10px;
    align: center;
-  
+ 
 }
 
-p.proverb{
+
+blockquote {
+   background-image: url ("images/tree-large.jpg");
    clip: rect(auto,auto,auto,auto);
    margin-left: 4%;
    line-height: 150%;
@@ -55,7 +57,7 @@ p.proverb{
    padding-top: 50px;
    padding-bottom: 20px;
 }
-block-quote {
+.tree {
    background-image: url("images/tree-large.jpg");
 }
 
