@@ -22,7 +22,6 @@ h1 {
 }
 /*welcome..*/
 h2 {
-   text-align: center;
    padding-bottom: 60px;
    margin: 20px auto 20px auto;
    font-weight: normal;
@@ -35,7 +34,6 @@ p {
  /*home aboou..*/
 ul{
    padding: 20px;
-   margin: 50px auto 50px auto;
    border-top: 2px solid #000;
    border-bottom: 1px solid #000;
    text-align: center;
@@ -47,11 +45,6 @@ li {
    align: center;
  
 }
-
-p{
-   margin-left: 20%;
-}
-
 
 blockquote {
    clip: rect(auto,auto,auto,auto);
