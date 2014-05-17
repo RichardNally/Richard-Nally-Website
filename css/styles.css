@@ -42,6 +42,7 @@ ul{
 li {
    display: inline;
    margin: 10px;
+   align: center;
 }
 
 blockquote {
@@ -55,7 +56,7 @@ blockquote {
 body {
    background-image: url("../images/tree-large.jpg");
    background-repeat: no-repeat;
-   background-position: 75% 80%;
+   background-position: 95% 45%;
 }
 
 img.medium {
