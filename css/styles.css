@@ -2,7 +2,7 @@ html {
    font-family: sans-serif;
 }
 div.container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto 20px auto;
 }
     
@@ -53,7 +53,6 @@ blockquote {
    margin-right: 1%;
    padding-top: 5px;
    padding-bottom: 20px;
-   border-bottom: 1px solid #665544; width: 800px; 
 }
 body {
    background-image: url("../images/tree-medium.jpg");
@@ -61,8 +60,13 @@ body {
    background-position: 95% 20%;
 }
 p.bagel {
+   border-top: 1px solid #665544;
    border-bottom: 1px solid #665544;
 }
+p.circus {
+   border-bottom: 1px solid #665544;
+}
+
 
 
 img.medium {
