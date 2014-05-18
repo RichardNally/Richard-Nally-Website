@@ -66,7 +66,10 @@ p.bagel {
 p.circus {
    border-bottom: 1px solid #665544;
 }
-
+a:link {
+    color: red;
+    text-decoration: none;
+}
 
 
 img.medium {
