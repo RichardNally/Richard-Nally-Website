@@ -48,9 +48,9 @@ li {
 
 blockquote {
    clip: rect(auto,auto,auto,auto);
-   margin-left: %;
+   margin-left: 4%;
    line-height: 150%;
-   margin-right: %;
+   margin-right: 1%;
    padding-top: 5px;
    padding-bottom: 20px;
    border-bottom: 1px solid #665544; width: 800px; 
@@ -60,6 +60,10 @@ body {
    background-repeat: no-repeat;
    background-position: 95% 20%;
 }
+p.bagel {
+   border-bottom: 1px solid #665544;
+}
+
 
 img.medium {
    width: 250px;
