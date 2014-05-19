@@ -66,12 +66,21 @@ p.bagel {
 p.circus {
    border-bottom: 1px solid #665544;
 }
+a {
+  color:blue; background:white;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 1s ease-in;
+}
 a:link {
     color: red;
     text-decoration: none;
 }
 a:hover {
-    background-color: black;
+    color: yellow; background-color: black;
 }
 
 
