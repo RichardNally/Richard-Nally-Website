@@ -61,9 +61,11 @@ body {
 }
 p.bagel {
    border-top: 1px solid #665544;
+   padding-bottom: 140px;
    border-bottom: 1px solid #665544;
 }
 p.circus {
+   padding-bottom: 140px;
    border-bottom: 1px solid #665544;
 }
 a {
@@ -77,9 +79,15 @@ a:link {
 a:hover {
     color: yellow; background-color: black;
 }
-
-
 img.medium {
    width: 250px;
    margin: 10px;
+}
+img.align-left{
+    float: left;
+    margin-right: 10px;
+}
+img.align-right {
+    float: right;
+    margin-left: 10px;
 }
