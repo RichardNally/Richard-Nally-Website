@@ -10,11 +10,10 @@ div.wrapper {
     background-color: #fff;
     width: 100%;
 }
-   
 
 body {
    margin: 0px;
-   background: #e1e3e4;
+   background: white;
 }
 h1 {
    margin: 0px auto 0px auto;
@@ -42,7 +41,7 @@ ul{
    border-top: 2px solid #000;
    border-bottom: 1px solid #000;
    text-align: center;
-   background-color: white;
+   background-color: #e1e3e4;
 }
 li {
    display: inline;
@@ -58,18 +57,16 @@ blockquote {
    padding-top: 5px;
    padding-bottom: 20px;
 }
+
+img.tree-align-right {
+    width: 250px;
+    height: 250px;
+}
 p.quote {
    padding-top: 50px;
    padding-bottom: 50px;
-   background-image: url("../images/tree-medium.jpg");
-   background-repeat: no-repeat;
-   background-position: 95% 20%;
 }
 
-background-image {
-    width: 20px;
-    height: 20px;
-}
 p.bagel {
    border-top: 1px solid #665544;
    padding-bottom: 160px;
@@ -86,6 +83,10 @@ a {
 a:link {
     color: red;
     text-decoration: none;
+    background-color: #e1e3e4;
+}
+p.about {
+    background-color:#e1e3e4;
 }
 a:hover {
     color: white; background-color: black;
