@@ -6,16 +6,19 @@ div.container {
     margin: 20px auto 20px auto;
 }
     
-header , section, footer, aside, nav, figure, figcaption {
-   display: block;
-  }
+div.wrapper {
+    background-color: #fff;
+    width: 100%;
+}
+   
 
 body {
    margin: 0px;
+   background: #e1e3e4;
 }
 h1 {
-   margin: 20px auto 20px auto;
-   text-align: center;
+   margin: 0px auto 0px auto;
+   text-align: left;
    color: white;
    background-color: black;
    padding: 20px
@@ -35,6 +38,7 @@ p {
  /*home aboou..*/
 ul{
    padding: 20px;
+   margin: 0px;
    border-top: 2px solid #000;
    border-bottom: 1px solid #000;
    text-align: center;
@@ -68,11 +72,11 @@ background-image {
 }
 p.bagel {
    border-top: 1px solid #665544;
-   padding-bottom: 140px;
+   padding-bottom: 160px;
    border-bottom: 1px solid #665544;
 }
 p.circus {
-   padding-bottom: 140px;
+   padding-bottom: 160px;
    border-bottom: 1px solid #665544;
 }
 a {
