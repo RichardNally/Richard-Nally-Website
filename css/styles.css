@@ -57,9 +57,7 @@ ul.links{
     width: 49%;
     colour: #111;    
 }  
- 
-
-    
+  
 body {
    margin: 0px;
    background: white;
@@ -70,13 +68,9 @@ h1 {
    text-align: left;
    color: red;
    padding: 20px
+   font-size: 30px;
 }
 /*welcome..*/
-h2 {
-   padding-bottom: 60px;
-   margin: 20px auto 20px auto;
-   font-weight: normal;
-}
 
 p {
    padding: 10px;
