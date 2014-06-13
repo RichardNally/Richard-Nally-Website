@@ -26,16 +26,39 @@ p.intro {
     font-size: 18px;
     display: block;
 }
-ul.links{
-    box-sizing: border-box;
-    float: right;
-    max-width: 50%;
-    padding-left: 30px;
-    display: block;
-    width: 345px 60px;
+.links {
     font-size: 30px;
     font-weight: 400;
-}   
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0px;
+}
+header.links{
+    box-sizing: border-box;
+    float: right;
+    margin: 0px;
+    max-width: 50%;
+    padding-left: 30px;
+}
+ul.links{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: 0px
+    max-width: 50px;
+    padding-left: 30px;
+} 
+.links>li {
+    display: inline-block;
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-left: 30px;
+    width: 49%;
+    colour: #111;    
+}  
+ 
+
     
 body {
    margin: 0px;
@@ -62,7 +85,7 @@ p {
 }
 
 li {
-   display: block;
+   display: inline-block;
    margin: 10px;
    align: center;
 }
@@ -92,7 +115,7 @@ p.circus {
    border-bottom: 1px solid #665544;
 }
 a {
-  color:blue; background:white;
+  color:red; background:white;
   transition:color .2s ease-out, background 1s ease-in;
 }
 a:link {
