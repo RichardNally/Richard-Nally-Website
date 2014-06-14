@@ -19,6 +19,7 @@ div.welcome {
     float: left;
     max-width: 50%;
     min-height: 120px;
+    max-height: 100px;
     padding-right: 30px;
 }
 p.intro {
@@ -44,6 +45,7 @@ ul.links{
     font-size: 18px;
     font-weight: 400;
     margin: 0px;
+    float: right;
     margin-top: 0px
     max-width: 50px;
     padding-left: 30px;
@@ -87,15 +89,17 @@ li {
 blockquote {
    clip: rect(auto,auto,auto,auto);
    margin-left: 4%;
-   line-height: 150%;
    margin-right: 1%;
-   padding-top: 5px;
+   padding-top: 0px;
    padding-bottom: 20px;
+}
+img.tree-align-right {
+   padding-top: 25px;
 }
 
 
 p.quote {
-   padding-top: 50px;
+   padding-top: 20px;
    padding-bottom: 50px;
 }
 
@@ -120,7 +124,7 @@ p.about {
     background-color:#e1e3e4;
 }
 a:hover {
-    color: grey; 
+    color: #aaa; 
 }
 img.medium {
    width: 250px;
