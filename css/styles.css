@@ -77,7 +77,6 @@ h1 {
 p {
    padding: 10px;
    margin: 10px auto 10px auto;
-   
 }
 
 li {
@@ -93,8 +92,9 @@ blockquote {
    padding-top: 0px;
    padding-bottom: 20px;
 }
-img.tree-align-right {
+img.tree-align-left {
    padding-top: 25px;
+   padding-left: 50px;
 }
 
 
